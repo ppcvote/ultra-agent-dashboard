@@ -1,0 +1,35 @@
+{
+  "name": "ultra-agent-dashboard",
+  "version": "1.0.0",
+  "description": "Animated AI agent dashboard with 3 switchable themes. React + TypeScript, zero API dependencies.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  },
+  "keywords": [
+    "ai-agents", "dashboard", "react", "typescript", "animated",
+    "pixel-art", "space-station", "aquarium", "theme-switcher"
+  ],
+  "author": "Ultra Lab <hello@ultralab.tw>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppcvote/ultra-agent-dashboard"
+  },
+  "homepage": "https://ultralab.tw/agent"
+}
