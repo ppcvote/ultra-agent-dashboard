@@ -371,7 +371,6 @@
       flex-direction: column;
     }
   }
-}
 
 /* ═══════════════════════════════════
    Keyframe Animations
@@ -504,4 +503,4 @@
   95%  { filter: brightness(0.9); }
   96%  { filter: brightness(1.6); }
   97%  { filter: brightness(1); }
-
+}

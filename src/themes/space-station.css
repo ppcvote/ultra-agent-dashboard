@@ -678,7 +678,6 @@
       border-radius: 12px 12px 0 0;
     }
   }
-}
 
 /* ═══════════════════════════════════
    Space Station Keyframes
@@ -881,4 +880,4 @@
   10%  { opacity: 1; }
   90%  { opacity: 1; }
   100% { offset-distance: 100%; opacity: 0; }
-
+}
