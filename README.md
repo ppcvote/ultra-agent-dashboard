@@ -2,7 +2,7 @@
 
 Animated AI agent dashboard with 3 switchable themes. React + TypeScript, zero API dependencies.
 
-Built by [Ultra Lab](https://ultralab.tw) — live demo at [ultralab.tw/agent](https://ultralab.tw/agent).
+Built by [Ultra Lab](https://ultralab.tw). The Colony View theme runs in production at [ultralab.tw/agent](https://ultralab.tw/agent); run the repo locally to see all three themes.
 
 ## Themes
 
@@ -43,7 +43,11 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:5173`.
+Open `http://localhost:5173` and use the three buttons under the stats row to switch themes. Needs Node.js 18 or newer.
+
+For a static build, run `npm run build` (output in `dist/`) and `npm run preview` to check it.
+
+The repo ships with sample data, so it runs with no backend and no API keys.
 
 ## Customize
 
@@ -100,10 +104,12 @@ src/
 
 ## License
 
-MIT
+[MIT](LICENSE). All sprites, creatures and animations in `src/` are original work.
+
+Not bundled in this repo, loaded at build or run time under their own licenses: [lucide-react](https://github.com/lucide-icons/lucide) icons (ISC, npm dependency) and the JetBrains Mono and Outfit fonts (SIL Open Font License 1.1, served by Google Fonts from `index.html`).
 
 ## Links
 
-- [Live demo](https://ultralab.tw/agent) — all 3 themes running with live data
-- [Ultra Lab](https://ultralab.tw) — AI automation services
+- [ultralab.tw/agent](https://ultralab.tw/agent) — Colony View in production, as an illustration of our agent roster
+- [Ultra Lab](https://ultralab.tw) — AI product company
 - [Discord](https://discord.gg/ewS4rWXvWk) — Solo Lab developer community
